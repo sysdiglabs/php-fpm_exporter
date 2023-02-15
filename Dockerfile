@@ -1,4 +1,4 @@
-FROM golang:1.18.3 as builder
+FROM golang:1.20.1 as builder
 
 WORKDIR /go/src/github.com/hipages/php-fpm_exporter
 COPY . .
